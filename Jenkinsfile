@@ -26,7 +26,7 @@ pipeline{
             type: 'jar']], credentialsId: 'NexusID', groupId: 'QA', 
             nexusUrl: '198.58.119.40:8081', 
             nexusVersion: 'nexus3', protocol: 'http', 
-            repository: 'Kuekam-repo', version: '0.0.2'
+            repository: 'Kuekam-repo', version: '0.0.2-SNAPSHOT'
         }
        }
     }
